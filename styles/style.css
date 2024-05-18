@@ -167,4 +167,9 @@ footer {
   text-align: center;
   background: #f8f9fa;
   padding: 5px;
-  
+  font-size: 12px;
+}
+
+.footer-links {
+  text-decoration: none;
+}
