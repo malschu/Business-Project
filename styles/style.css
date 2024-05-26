@@ -191,3 +191,40 @@ footer {
   margin: 80px;
   font-size: 24px;
 }
+
+.services-body {
+  margin: 100px 0 100px;
+}
+
+.services-header h1 {
+  color: var(--dark-color);
+
+  font-size: 88px;
+}
+
+.service-main {
+  background-color: #c86b85;
+  padding: 5%;
+}
+
+.column {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  box-shadow: 29px 33px 42px 15px rgba(238, 229, 229, 0.2);
+  padding: 20px;
+}
+
+.col-title {
+  font-family: var(--secondary-font);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.service-image {
+  border-radius: 150px;
+  width: 50%;
+  margin-top: 30px;
+}
