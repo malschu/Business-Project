@@ -228,3 +228,33 @@ footer {
   width: 50%;
   margin-top: 30px;
 }
+
+.contacts-details {
+  text-decoration: none;
+  color: black;
+}
+
+.contact {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+  margin: 5% 15%;
+}
+
+@media (max-width: 600px) {
+  .google-map {
+    margin: 0 0;
+  }
+}
+
+.google-map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
