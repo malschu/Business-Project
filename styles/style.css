@@ -258,3 +258,13 @@ footer {
   top: 0;
   position: absolute;
 }
+
+.row {
+  flex-wrap: wrap;
+}
+
+.container-fluid,
+.container {
+  max-width: 100%;
+  overflow-x: hidden;
+}
